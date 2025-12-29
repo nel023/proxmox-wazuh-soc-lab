@@ -7,7 +7,7 @@
 * Hypervisor: Proxmox VE
 * Host Machine: Spare desktop (bare-metal Proxmox install)
 
-![Proxmox VM List](screenshots/virtual-machines.png)
+![Proxmox VM List](../screenshots/virtual-machines.png)
 
 
 
