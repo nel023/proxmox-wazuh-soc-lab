@@ -7,13 +7,13 @@
 * Hypervisor: Proxmox VE
 * Host Machine: Spare desktop (bare-metal Proxmox install)
 
-!\[Proxmox VM List](screenshots/virtual-machines.png)
+![Proxmox VM List](screenshots/virtual-machines.png)
 
 
 
 ### Network Design
 
-!\[Proxmox Bridges](screenshots/promox-bridges.png)
+![Proxmox Bridges](screenshots/promox-bridges.png)
 
 
 
