@@ -17,7 +17,7 @@
 * Authentication attempts
 * Malware \& integrity monitoring
 
-![Ubuntu VM](../screenshots/ubuntu-agent2.png)
+![Ubuntu VM](/screenshots/ubuntu-agent2.png)
 
 
 
