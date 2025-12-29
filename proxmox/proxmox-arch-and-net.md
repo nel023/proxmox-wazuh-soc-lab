@@ -13,7 +13,7 @@
 
 ### Network Design
 
-![Proxmox Bridges](screenshots/promox-bridges.png)
+![Proxmox Bridges](../screenshots/promox-bridges.png)
 
 
 
