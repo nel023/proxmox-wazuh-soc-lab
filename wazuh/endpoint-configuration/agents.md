@@ -7,7 +7,7 @@
 * Wazuh agent installed
 * Registered with Wazuh Server
 
-![Win10 VM](../screenshots/win10-agent1.png)
+![Win10 VM](../screenshots/virtual-machines.png)
 
 
 
