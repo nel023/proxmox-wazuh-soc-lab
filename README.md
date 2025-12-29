@@ -1,21 +1,26 @@
-# proxmox-wazuh-soc-lab
+# **Proxmox-Based Wazuh SOC Home Lab**
 
-## 📌 Proxmox + Wazuh SOC Home Lab
+### 
 
-### Overview
+### Project Overview
 
-This project documents the setup of a SOC home lab using Proxmox Virtual Environment and Wazuh SIEM.
-The lab replicates an enterprise-style network design, including NAT + Host-only isolation, to securely monitor endpoints while maintaining controlled internet access.
+This project documents the design and implementation of a Proxmox-based SOC Home Lab using Wazuh SIEM/XDR. The lab simulates a small enterprise environment with monitored endpoints, an attacker machine, and proper network segmentation. It is intended for cybersecurity learners and aspiring SOC analysts to demonstrate hands-on skills in monitoring, detection, and incident analysis.
+
+
+
+This project includes:
+
+* SIEM deployment and configuration
+* Endpoint monitoring (Windows \& Linux)
+* Network segmentation and isolation
+* Attack simulation and alert analysis
+
+
 
 ### Objectives
 
-* Learn bare-metal virtualization using Proxmox VE
-* Design secure virtual networks
-* Deploy Wazuh in a dual-NIC architecture
-* Validate routing, isolation, and access
-* Document the setup for reproducibility
-
-
-
-!\[SOC Network Architecture](architecture/network-diagram.png)
-
+* Deploy Wazuh Server on Proxmox
+* Monitor Windows and Linux endpoints using Wazuh agents
+* Simulate attacks using Kali Linux
+* Analyze alerts, logs, and security events
+* Apply SOC analyst workflows (detect → analyze → respond)
