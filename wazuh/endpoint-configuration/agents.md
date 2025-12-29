@@ -7,7 +7,7 @@
 * Wazuh agent installed
 * Registered with Wazuh Server
 
-!\[Win10 VM](../screenshots/win10-agent1.png)
+![Win10 VM](../screenshots/win10-agent1.png)
 
 
 
@@ -17,7 +17,7 @@
 * Authentication attempts
 * Malware \& integrity monitoring
 
-!\[Ubuntu VM](../screenshots/ubuntu-agent2.png)
+![Ubuntu VM](../screenshots/ubuntu-agent2.png)
 
 
 
