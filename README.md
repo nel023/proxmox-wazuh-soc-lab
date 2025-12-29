@@ -16,6 +16,7 @@ This project includes:
 * Attack simulation and alert analysis
 
 
+![SOC Network Architecture](architecture/network-diagram.png)
 
 ### Objectives
 
