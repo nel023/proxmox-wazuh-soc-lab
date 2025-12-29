@@ -17,5 +17,5 @@ The lab replicates an enterprise-style network design, including NAT + Host-only
 
 
 
-!\[SOC Network Architecture](architecture/network-diagram.png)
+![SOC Network Architecture](architecture/network-diagram.png)
 
