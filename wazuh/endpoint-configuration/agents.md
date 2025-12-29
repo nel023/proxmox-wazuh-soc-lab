@@ -7,7 +7,7 @@
 * Wazuh agent installed
 * Registered with Wazuh Server
 
-![Win10 VM](../screenshots/virtual-machines.png)
+![Win10 VM](/proxmox-wazuh-soc-lab/screenshots/win10-agent1.png)
 
 
 
