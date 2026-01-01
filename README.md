@@ -36,7 +36,7 @@ The lab runs on a **dedicated Proxmox host** with multiple isolated virtual netw
 
 #### **Virtual Machines**
 
-!\[VMs](assets/screenshots/vms.png)
+![VMs](assets/screenshots/vms.png)
 
 
 
@@ -67,7 +67,7 @@ The intent is to build a solid base that can later be expanded into:
 
 ## **Repository Structure**
 
-!\[Repository Structure](assets/screenshots/repo-structure.png)
+![Repository Structure](assets/screenshots/repo-structure.png)
 
 ## **Why Proxmox + Wazuh**
 
