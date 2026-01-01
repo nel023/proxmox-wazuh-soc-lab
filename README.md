@@ -36,19 +36,7 @@ The lab runs on a **dedicated Proxmox host** with multiple isolated virtual netw
 
 #### **Virtual Machines**
 
-| **VM**                                  | **Purpose**                              |
-
-| ----------------------------------- | ------------------------------------ |
-
-| Wazuh Server (Ubuntu)               | SIEM manager, indexer, and dashboard |
-
-| Infrastructure Services VM (Ubuntu) | DHCP, DNS, NTP, Syslog               |
-
-| Windows 10 Endpoint                 | Monitored user workstation           |
-
-| Ubuntu Endpoint                     | Monitored Linux system               |
-
-| Kali Linux                          | Attack simulation platform           |
+!\[VMs](assets/screenshots/vms.png)
 
 
 
@@ -79,25 +67,7 @@ The intent is to build a solid base that can later be expanded into:
 
 ## **Repository Structure**
 
-proxmox-wazuh-soc-homelab/
-
-├── 01-architecture/
-
-├── 02-proxmox-setup/
-
-├── 03-infra-services-vm/
-
-├── 04-wazuh-server/
-
-├── 05-agents/
-
-├── 06-attack-simulation/
-
-├── 07-detection-use-cases/
-
-└── assets/
-
-
+!\[Repository Structure](assets/screenshots/repo-structure.png)
 
 ## **Why Proxmox + Wazuh**
 
