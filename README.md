@@ -1,10 +1,8 @@
 # **Proxmox-Based Wazuh SOC Home Lab**
 
----
 
 
-
-### **Overview**
+## **Overview**
 
 This project documents a **self-built Security Operations Center (SOC) home lab** deployed on **Proxmox VE** centered around **Wazuh SIEM**. The lab is designed to mirror how monitoring, detection, and supporting infrastructure are implemented in real enterprise environments—not just to make tools work, but to understand *why* they are deployed the way they are.
 
@@ -14,7 +12,7 @@ Rather than relying on pre-packaged appliances, each component is intentionally 
 
 
 
-### **Goals of This Lab**
+## **Goals of This Lab**
 
 * Build a realistic SOC environment using open-source tools
 * Understand infrastructure dependencies behind a SIEM deployment
@@ -22,13 +20,11 @@ Rather than relying on pre-packaged appliances, each component is intentionally 
 * Practice log analysis, alert triage, and investigation workflows
 * Document decisions, trade-offs, and limitations clearly
 
-
-
 This repository is meant to reflect **how a junior SOC analyst or blue team engineer thinks**, not just what commands they can run.
 
 
 
-### **Lab Environment Summary**
+## **Lab Environment Summary**
 
 The lab runs on a **dedicated Proxmox host** with multiple isolated virtual networks:
 
@@ -60,7 +56,7 @@ Each VM is documented with its role, configuration, and security considerations.
 
 
 
-### **What This Lab Demonstrates**
+## **What This Lab Demonstrates**
 
 This project is focused on **fundamentals**, not shortcuts:
 
@@ -81,7 +77,7 @@ The intent is to build a solid base that can later be expanded into:
 
 
 
-### **Repository Structure**
+## **Repository Structure**
 
 proxmox-wazuh-soc-homelab/
 
@@ -103,28 +99,24 @@ proxmox-wazuh-soc-homelab/
 
 
 
-
-
-### **Why Proxmox + Wazuh**
+## **Why Proxmox + Wazuh**
 
 * **Proxmox** provides flexibility, visibility, and realistic network segmentation
 * **Wazuh** offers endpoint visibility, log analysis, and detection without vendor lock-in
 
 
 
-### **Assumptions**
+## **Assumptions**
 
 * This lab is built for learning and demonstration purposes
 * High availability and redundancy are out of scope
 * Security controls are intentionally balanced with observability
 
-
-
 These assumptions are documented openly rather than hidden.
 
 
 
-### **Who This Is For**
+## **Who This Is For**
 
 * Aspiring SOC analysts
 * Blue team learners
@@ -133,7 +125,7 @@ These assumptions are documented openly rather than hidden.
 
 
 
-### **How to Use This Repository**
+## **How to Use This Repository**
 
 * Start with **01-architecture** to understand design decisions
 * Follow the setup sections to reproduce the lab
@@ -142,13 +134,13 @@ These assumptions are documented openly rather than hidden.
 
 
 
-### **Disclaimer**
+## **Disclaimer**
 
 This lab is for **educational purposes only**. Attack simulations are conducted in an isolated environment against systems owned and controlled by the author.
 
 
 
-### **Author**
+## **Author**
 
 Built and documented as part of a personal cybersecurity learning journey, with a focus on practical SOC and blue team skills.
 
