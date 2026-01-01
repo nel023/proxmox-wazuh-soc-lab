@@ -1,10 +1,12 @@
 # **Proxmox-Based Wazuh SOC Home Lab**
 
+---
+
 
 
 ### **Overview**
 
-This project documents a \*\*self-built Security Operations Center (SOC) home lab\*\* deployed on \*\*Proxmox VE\*\*, centered around \*\*Wazuh SIEM\*\*. The lab is designed to mirror how monitoring, detection, and supporting infrastructure are implemented in real enterprise environments—not just to make tools work, but to understand \*why\* they are deployed the way they are.
+This project documents a **self-built Security Operations Center (SOC) home lab** deployed on **Proxmox VE** centered around **Wazuh SIEM**. The lab is designed to mirror how monitoring, detection, and supporting infrastructure are implemented in real enterprise environments—not just to make tools work, but to understand *why* they are deployed the way they are.
 
 
 
@@ -60,7 +62,7 @@ Each VM is documented with its role, configuration, and security considerations.
 
 ### **What This Lab Demonstrates**
 
-This project is focused on \*\*fundamentals\*\*, not shortcuts:
+This project is focused on **fundamentals**, not shortcuts:
 
 * Network segmentation and traffic control
 * Centralized logging and time synchronization
@@ -103,14 +105,14 @@ proxmox-wazuh-soc-homelab/
 
 
 
-#### **Why Proxmox + Wazuh**
+### **Why Proxmox + Wazuh**
 
 * **Proxmox** provides flexibility, visibility, and realistic network segmentation
 * **Wazuh** offers endpoint visibility, log analysis, and detection without vendor lock-in
 
 
 
-#### **Assumptions**
+### **Assumptions**
 
 * This lab is built for learning and demonstration purposes
 * High availability and redundancy are out of scope
@@ -122,7 +124,7 @@ These assumptions are documented openly rather than hidden.
 
 
 
-#### **Who This Is For**
+### **Who This Is For**
 
 * Aspiring SOC analysts
 * Blue team learners
@@ -131,7 +133,7 @@ These assumptions are documented openly rather than hidden.
 
 
 
-#### **How to Use This Repository**
+### **How to Use This Repository**
 
 * Start with **01-architecture** to understand design decisions
 * Follow the setup sections to reproduce the lab
@@ -140,13 +142,13 @@ These assumptions are documented openly rather than hidden.
 
 
 
-#### **Disclaimer**
+### **Disclaimer**
 
 This lab is for **educational purposes only**. Attack simulations are conducted in an isolated environment against systems owned and controlled by the author.
 
 
 
-#### **Author**
+### **Author**
 
 Built and documented as part of a personal cybersecurity learning journey, with a focus on practical SOC and blue team skills.
 
