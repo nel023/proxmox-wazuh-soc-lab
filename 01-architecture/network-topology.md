@@ -8,7 +8,7 @@ This document describes the network architecture of the Proxmox-based Wazuh SOC 
 
 ## **Network Interfaces and Virtual Bridges**
 
-![Net Intf](assets/screenshots/net-intf-and-bridges.png)
+![Net Intf](../assets/screenshots/net-intf-and-bridges.png)
 
 
 
@@ -56,7 +56,7 @@ This document describes the network architecture of the Proxmox-based Wazuh SOC 
 
 ## **Diagram (Logical View)**
 
-![Logical Diagram](assets/screenshots/network-diagram-logical.png)
+![Logical Diagram](../assets/screenshots/network-diagram-logical.png)
 
 
 
