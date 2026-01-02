@@ -14,7 +14,7 @@ The Infra VM ensures a centralized, isolated, and controlled environment for all
 
 
 ## **Structure**
-![Infra VM Structure](../assets/infra-vm/infra-services-structure.png)
+![Infra VM Structure](../assets/screenshots/infra-vm/infra-services-structure.png)
 
 
 
