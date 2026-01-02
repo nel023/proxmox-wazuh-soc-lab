@@ -79,15 +79,9 @@ sudo nano /etc/chrony/chrony.conf
 
 pool pool.ntp.org iburst
 
-
-
 allow 10.10.10.0/24
 
-
-
 local stratum 10
-
-
 
 logdir /var/log/chrony
 
@@ -155,7 +149,7 @@ sudo nano /etc/chrony/chrony.conf
 
 server 10.10.10.2 iburst
 
-```bash
+```
 
 **Restart the service:**
 
@@ -177,11 +171,9 @@ chronyc tracking
 
 ## **STEP 5: Configure Windows 10 Client (Optional)**
 
-Open PowerShell as Administrator on the Windows VM:
+**Open PowerShell as Administrator on the Windows VM:**
 
-powershell
-
-Copy code
+```powershell
 
 w32tm /config /manualpeerlist:10.10.10.2 /syncfromflags:manual /update
 
@@ -191,9 +183,11 @@ net start w32time
 
 w32tm /resync
 
-Verify status:
+```
 
 
+
+**Verify status:**
 
 ```powershell
 
