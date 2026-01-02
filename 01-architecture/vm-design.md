@@ -12,10 +12,8 @@ This document describes the **purpose, design, and resource allocation** for eac
 
 * **Role**: Central SIEM manager, log indexer, and dashboard provider.
 * **Network Interfaces:**
-
- 	**-** **vmbr0** (Management / temporary internet access)
-
- 	**-** **vmbr1** (SOC internal network)
+	- **vmbr0** (Management / temporary internet access)
+ 	- **vmbr1** (SOC internal network)
 
 * **IP Strategy:** Static IP on vmbr1 for consistent log forwarding.
 * **Resources:** 2 vCPU, 4GB RAM, 60GB disk.
