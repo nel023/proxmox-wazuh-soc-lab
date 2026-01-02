@@ -15,7 +15,7 @@ Rather than relying on a flat network, multiple bridges are intentionally used t
 **Purpose:**
 
 * Proxmox web interface access
-* emporary internet connectivity for VM updates
+* Temporary internet connectivity for VM updates
 
 
 
