@@ -100,7 +100,7 @@ These assumptions are documented openly rather than hidden.
 * Start with **01-architecture** to understand design decisions
 * Follow the setup sections to reproduce the lab
 * Review attack simulations and detections to understand SOC workflows
-* Use the documentation as a reference during interviews or learning reviews
+* Use the documentation as a reference during learning reviews
 
 
 
