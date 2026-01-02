@@ -4,7 +4,7 @@
 
 This document covers the setup of an **internal NTP (Network Time Protocol) service** for the SOC home lab.
 
-The NTP service is hosted on the \*\*Infrastructure Services VM\*\* and provides time synchronization for SOC-related virtual machines.
+The NTP service is hosted on the **Infrastructure Services VM** and provides time synchronization for SOC-related virtual machines.
 
 Consistent system time is essential for **accurate log correlation, alert analysis, and incident timeline reconstruction** in Wazuh.
 
