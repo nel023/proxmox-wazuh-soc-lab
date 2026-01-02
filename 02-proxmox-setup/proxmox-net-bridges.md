@@ -15,7 +15,7 @@ Rather than relying on a flat network, multiple bridges are intentionally used t
 **Purpose:**
 
 * Proxmox web interface access
-* emporary internet connectivity for VM updates
+* Temporary internet connectivity for VM updates
 
 
 
@@ -86,7 +86,7 @@ Rather than relying on a flat network, multiple bridges are intentionally used t
 **Characteristics:**
 
 * No internet access
-* Private IP range: 10.20.20.0/24
+* Private IP range: **10.20.20.0/24**
 * Static IP assignment
 
 
