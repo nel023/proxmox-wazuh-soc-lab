@@ -1,7 +1,5 @@
 # **Proxmox VE Installation**
-
 ## **Overview**
-
 This document outlines how **Proxmox VE** was installed and prepared as the hypervisor for the Wazuh SOC Home Lab. The focus is on stability, clarity, and features relevant to running multiple security-focused virtual machines on a single host.
 
 
