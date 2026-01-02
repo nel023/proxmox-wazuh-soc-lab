@@ -62,7 +62,7 @@ Proxmox automatically creates a default Linux bridge (`vmbr0`) during installati
 
 Network configuration details are documented separately in:
 
-* [Net Config](../02-proxmox-setup/proxmox-net-bridges.md)
+* [Proxmox Network Bridges (vmbr0, vmbr1, vmbr2)](../02-proxmox-setup/proxmox-net-bridges.md)
 
 
 
