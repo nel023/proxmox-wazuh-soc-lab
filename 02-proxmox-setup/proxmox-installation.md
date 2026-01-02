@@ -102,5 +102,6 @@ Proxmox VE was selected because it:
 
 This installation provides a clean, stable foundation for deploying the SOC lab. Subsequent documentation focuses on network segmentation, VM design, and security tooling built on top of this base.
 
-
-
+The image below shows the Proxmox node dashboard after completing the installation and configuration steps.  
+All expected VMs (Wazuh Server, Infra Services, Windows 10 Agent, Ubuntu Agent, Kali VM) are listed in the left panel, confirming successful deployment.
+![Proxmox Dashboard Summary](../assets/screenshots/proxmox/dashboard.png)
