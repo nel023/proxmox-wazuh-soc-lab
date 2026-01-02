@@ -14,20 +14,7 @@ The Infra VM ensures a centralized, isolated, and controlled environment for all
 
 
 ## **Structure**
-
-| File                   | Description                                                  |
-
-| ---------------------- | ------------------------------------------------------------ |
-
-| `dhcp-setup.md`        | Installation and configuration of DHCP service for vmbr1.    |
-
-| `dns-setup.md`         | Setup and configuration of internal DNS service.             |
-
-| `syslog-forwarding.md` | Forwarding system logs from the Infra VM to Wazuh.           |
-
-| `ntp-setup.md`         | NTP installation and configuration for time synchronization. |
-
-| `hardening.md`         | Security hardening steps applied to the Infra VM.            |
+![Infra VM Structure](../assets/infra-vm/infra-services-structure.png)
 
 
 
