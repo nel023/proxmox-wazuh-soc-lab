@@ -18,6 +18,7 @@ The Proxmox host is a spare desktop machine repurposed to run a multi-VM lab env
 * Adequate CPU cores to support concurrent VMs
 * Sufficient RAM to avoid swapping during attack simulations
 * SSD storage for faster VM I/O and log indexing
+
 This setup mirrors how small SOC labs or proof-of-concept environments are commonly built.
 
 
