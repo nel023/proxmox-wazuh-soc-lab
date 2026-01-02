@@ -72,7 +72,7 @@ Example configuration:
 subnet 10.10.10.0 netmask 255.255.255.0 {
   range 10.10.10.100 10.10.10.200;
   option routers 10.10.10.1;
-  option domain-name-servers 10.10.10.10;
+  option domain-name-servers 10.10.10.2;
   default-lease-time 600;
   max-lease-time 7200;
 }
