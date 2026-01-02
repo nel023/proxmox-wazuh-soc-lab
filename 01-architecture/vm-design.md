@@ -25,10 +25,8 @@ This document describes the **purpose, design, and resource allocation** for eac
 
 * **Role:** Provides DHCP, DNS, NTP, and Syslog for SOC internal endpoints.
 * **Network Interfaces:**
-
-	**-** **vmbr0** (temporary internet for updates)
-
-	**- vmbr1** (SOC internal network)
+	- **vmbr0** (temporary internet for updates)
+	- **vmbr1** (SOC internal network)
 
 * **IP Strategy:** Static IP on vmbr1, DHCP and internal DNS serve endpoints.
 * **Resources:** 1 vCPU, 1GB RAM, 25GB disk.
@@ -40,10 +38,8 @@ This document describes the **purpose, design, and resource allocation** for eac
 
 * **Role:** Monitored workstation; target for attack simulations.
 * **Network Interfaces:**
-
-&nbsp;	- **vmbr1** (SOC internal network)
-
-&nbsp;	- Optional **vmbr2** for controlled attacker exposure if needed
+	- **vmbr1** (SOC internal network)
+	- Optional **vmbr2** for controlled attacker exposure if needed
 
 * **IP Strategy**: DHCP from infra services VM
 * **Resources:** 2 vCPU, 4GB RAM, 40GB disk.
@@ -58,7 +54,6 @@ This document describes the **purpose, design, and resource allocation** for eac
 * **IP Strategy:** DHCP
 * **Resources:** 1 vCPU, 1GB RAM, 15GB disk.
 * **Rationale:** Allows Linux endpoint monitoring practice; shows multi-platform telemetry.
-* 
 
 ## **5. Kali Linux VM**
 
