@@ -13,10 +13,8 @@ The DHCP service runs on a dedicated **Infra Services VM**, not on the Wazuh ser
 * **Scope:** vmbr1 (10.10.10.0/24)
 * **DHCP Server:** Infra Services VM (Ubuntu Server)
 * **Clients:**
-
-&nbsp;	- Windows 10 VM (Wazuh agent)
-
-&nbsp;	- Ubuntu VM (Wazuh agent)
+  - Windows 10 VM (Wazuh agent)
+  - Ubuntu VM (Wazuh agent)
 
 * **Excluded:** vmbr2 (attacker network – no DHCP by design)
 
@@ -33,25 +31,24 @@ This approach mirrors enterprise SOC environments where infrastructure services 
 ## **DHCP Server Installation**
 
 On the Infra Services VM:
-
-***sudo apt update***
-
-***sudo apt install isc-dhcp-server -y***
-
+```bash
+sudo apt update
+sudo apt install isc-dhcp-server -y
+```
 
 
 ## **Bind DHCP to vmbr1 Interface**
 
 Edit the DHCP server defaults:
-
-***sudo nano /etc/default/isc-dhcp-server***
-
+```bash
+sudo nano /etc/default/isc-dhcp-server
+```
 
 
 Set:
-
-**INTERFACESv4="ens18"**
-
+```bash
+INTERFACESv4="ens18"
+```
 
 
 This ensures DHCP only listens on the SOC internal network.
@@ -65,31 +62,20 @@ Edit the main DHCP configuration file:
 
 
 ```bash
-
 sudo nano /etc/dhcp/dhcpd.conf
-
 ```
 
 
 
 Example configuration:
-
 ```conf
-
 subnet 10.10.10.0 netmask 255.255.255.0 {
-
-&nbsp; range 10.10.10.100 10.10.10.200;
-
-&nbsp; option routers 10.10.10.1;
-
-&nbsp; option domain-name-servers 10.10.10.10;
-
-&nbsp; default-lease-time 600;
-
-&nbsp; max-lease-time 7200;
-
+  range 10.10.10.100 10.10.10.200;
+  option routers 10.10.10.1;
+  option domain-name-servers 10.10.10.10;
+  default-lease-time 600;
+  max-lease-time 7200;
 }
-
 ```
 
 Adjust gateway and DNS values based on your lab design.
@@ -99,21 +85,15 @@ Adjust gateway and DNS values based on your lab design.
 ## **Enable and Start DHCP Service**
 
 ```bash
-
 sudo systemctl enable isc-dhcp-server
-
 sudo systemctl restart isc-dhcp-server
-
 ```
 
 
 
 Verify status:
-
 ```bash
-
 systemctl status isc-dhcp-server
-
 ```
 
 
@@ -123,13 +103,9 @@ systemctl status isc-dhcp-server
 ### **Windows 10 VM**
 
 ```cmd
-
 ipconfig /release
-
 ipconfig /renew
-
 ipconfig
-
 ```
 
 
@@ -141,19 +117,14 @@ Confirm the IP falls within the defined DHCP range.
 ### **Ubuntu Agent VM**
 
 ```bash
-
 ip a show ens18
-
 ```
 
 
 
 Expected output includes:
-
 ```
-
 scope global dynamic ens18
-
 ```
 
 
