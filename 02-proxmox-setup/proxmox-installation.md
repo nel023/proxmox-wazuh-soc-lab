@@ -66,9 +66,9 @@ Network configuration details are documented separately in:
 ## **Update and Maintenance**
 
 After installation, the host was updated:
-
-***apt update \&\& apt upgrade -y***
-
+```bash
+apt update && apt upgrade -y
+```
 
 
 Regular updates ensure:
