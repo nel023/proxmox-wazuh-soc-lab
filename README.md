@@ -46,7 +46,7 @@ Each VM is documented with its role, configuration, and security considerations.
 
 ## **What This Lab Demonstrates**
 
-This project is focused on **fundamentals**, not shortcuts:
+This project is focused on **fundamentals**:
 
 * Network segmentation and traffic control
 * Centralized logging and time synchronization
