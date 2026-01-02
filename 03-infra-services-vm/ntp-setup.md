@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This document covers the setup of an **internal NTP (Network Time Protocol) service** for the SOC home lab.  
+This document covers the setup of an **internal NTP (Network Time Protocol) service** for the SOC home lab.
 
 The NTP service is hosted on the \*\*Infrastructure Services VM\*\* and provides time synchronization for SOC-related virtual machines.
 
@@ -12,19 +12,7 @@ Consistent system time is essential for **accurate log correlation, alert analys
 
 ## **Lab Environment**
 
-| Component         | Details                |
-
-| ----------------- | ---------------------- |
-
-| Hypervisor        | Proxmox VE             |
-
-| Infra Services VM | Ubuntu Server          |
-
-| Infra VM IP       | `10.10.10.2`           |
-
-| Network           | `vmbr1` (SOC internal) |
-
-| NTP Software      | chrony                 |
+![NTP Lab Env](../assets/screenshots/ntp-lab-env.png)
 
 
 
