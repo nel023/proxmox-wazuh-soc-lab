@@ -7,7 +7,7 @@
 * Ubuntu Server LTS
 * Minimal installation
 
-![Wazuh Server VM](../screenshots/wazuh-server-vm.png)
+![Wazuh Server VM](../assets/screenshots/wazuh/wazuh-server-vm.png)
 
 
 
@@ -21,7 +21,7 @@
 
 * Official Wazuh installation script (all-in-one deployment)
 
-![Wazuh Dashboard](../screenshots/wazuh-dashboard.png)
+![Wazuh Dashboard](../assets/screenshots/wazuh/wazuh-dashboard.png)
 
 
 
