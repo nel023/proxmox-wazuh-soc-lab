@@ -26,7 +26,7 @@ This document outlines the security hardening measures applied to the Infra Serv
 
  	- NTP: 123/UDP
 
-![UFW Hardening](../assets/screenshots/hardened-ufw/hardened-ufw.png)
+![UFW Hardening](../assets/screenshots/infra-vm/hardened-ufw.png)
 
 
 
@@ -35,7 +35,7 @@ This document outlines the security hardening measures applied to the Infra Serv
 * Disable unnecessary services.
 * Ensure only DHCP and NTP are running. 
 
-![Services Hardening](../assets/screenshots/hardened-ufw/hardened-running-services.png)
+![Services Hardening](../assets/screenshots/infra-vm/hardened-running-services.png)
 
 
 
