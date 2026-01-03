@@ -2,7 +2,7 @@
 
 ## **Purpose**
 
-This document outlines the security hardening measures applied to the Infra Services VM in the SOC lab. Currently, the VM runs \*\*DHCP and NTP services\*\*, and hardening ensures these critical services are protected from unauthorized access and misconfigurations.
+This document outlines the security hardening measures applied to the Infra Services VM in the SOC lab. Currently, the VM runs **DHCP and NTP services**, and hardening ensures these critical services are protected from unauthorized access and misconfigurations.
 
 
 
@@ -21,10 +21,9 @@ This document outlines the security hardening measures applied to the Infra Serv
 
 * Enable UFW.
 * Allow only required ports:
-
- 	- DHCP: 67/UDP
-
- 	- NTP: 123/UDP
+  - SSH: 22/TCP (optional for management)
+  - DHCP: 67/UDP
+  - NTP: 123/UDP
 
 ![UFW Hardening](../assets/screenshots/infra-vm/hardened-ufw.png)
 
@@ -33,9 +32,11 @@ This document outlines the security hardening measures applied to the Infra Serv
 3\. **Service Hardening**
 
 * Disable unnecessary services.
-* Ensure only DHCP and NTP are running. 
+* Ensure only DHCP and NTP are running.
 
 ![Services Hardening](../assets/screenshots/infra-vm/hardened-running-services.png)
+
+_**Note:** Only required services and essential system services (systemd) are running. Optional services such as multipathd was disabled to reduce attack surface._
 
 
 
