@@ -13,6 +13,8 @@ This document outlines the security hardening measures applied to the Infra Serv
 * Disable root login via SSH.
 * Enforce key-based authentication.
 
+![SSH Hardening](../assets/screenshots/infra-vm/hardened-ssh.png)
+
 
 
 2\. **Firewall (UFW)**
@@ -20,16 +22,20 @@ This document outlines the security hardening measures applied to the Infra Serv
 * Enable UFW.
 * Allow only required ports:
 
-&nbsp;	- DHCP: 67/UDP
+ 	- DHCP: 67/UDP
 
-&nbsp;	- NTP: 123/UDP
+ 	- NTP: 123/UDP
+
+![UFW Hardening](../assets/screenshots/hardened-ufw/hardened-ufw.png)
 
 
 
 3\. **Service Hardening**
 
 * Disable unnecessary services.
-* Ensure only DHCP and NTP are running.
+* Ensure only DHCP and NTP are running. 
+
+![Services Hardening](../assets/screenshots/hardened-ufw/hardened-running-services.png)
 
 
 
