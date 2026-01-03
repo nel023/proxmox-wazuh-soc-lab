@@ -1,8 +1,6 @@
-### Wazuh Server Setup
+# Wazuh Server Setup
 
-
-
-##### Base OS
+## Base OS
 
 * Ubuntu Server LTS
 * Minimal installation
@@ -11,13 +9,13 @@
 
 
 
-##### Wazuh Installation
+## Wazuh Installation
 
 * Wazuh Manager
 * Wazuh Indexer
 * Wazuh Dashboard
 
-###### Installation method:
+## Installation method:
 
 * Official Wazuh installation script (all-in-one deployment)
 
@@ -25,14 +23,14 @@
 
 
 
-##### Network Interfaces
+## Network Interfaces
 
 * NIC 1 (vmbr0): Dashboard access
 * NIC 2 (vmbr1): Agent communication
 
 
 
-##### Post-Installation Validation
+## Post-Installation Validation
 
 * Dashboard accessible from Windows host
 * Wazuh services running
