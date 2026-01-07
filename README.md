@@ -17,7 +17,7 @@ This lab is intentionally developed and documented in phases to mirror how SOC p
 ### **Phase 1 – SOC Infrastructure & Monitoring Foundation (Completed)**
 - Proxmox-based virtualization and network segmentation
 - Wazuh server deployment (manager, indexer, dashboard)
-- Windows and Linux endpoint onboarding
+- Windows and Linux endpoint deployment
 - Log collection, agent communication, and baseline visibility
 - Architecture design decisions and documentation
 
