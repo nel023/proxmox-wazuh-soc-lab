@@ -50,7 +50,7 @@ This document describes the installation and enrollment of **Wazuh agents** on b
    - **Agent name:** Windows hostname
 4. Complete the installation.
 
-> ⚠️ The installer **must be run as Administrator**, even if the user belongs to the local Administrators group.
+> The installer **must be run as Administrator**, even if the user belongs to the local Administrators group.
 
 ### Option B:
 1. On the Wazuh Dashboard, choose **deploy new agent**, and enter the details. A command will be created and can be run directly to the Windows 10 VM.
