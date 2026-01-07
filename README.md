@@ -10,13 +10,30 @@ This project documents a **self-built Security Operations Center (SOC) home lab*
 
 Rather than relying on pre-packaged appliances, each component is intentionally designed, deployed, and documented to demonstrate foundational blue team and SOC engineering skills.
 
+## **Project Phases**
+
+This lab is intentionally developed and documented in phases to mirror how SOC platforms are built and validated in real environments.
+
+### **Phase 1 – SOC Infrastructure & Monitoring Foundation (Completed)**
+- Proxmox-based virtualization and network segmentation
+- Wazuh server deployment (manager, indexer, dashboard)
+- Windows and Linux endpoint onboarding
+- Log collection, agent communication, and baseline visibility
+- Architecture design decisions and documentation
+
+### **Phase 2 – Attack Simulation & Detection Engineering (In Progress / Planned)**
+- Controlled attack simulations against lab endpoints
+- Validation of Wazuh detection rules and alerts
+- Mapping detections to MITRE ATT&CK techniques
+- Alert analysis, triage, and investigation workflows
+- Detection gaps, tuning, and lessons learned
 
 
 ## **Goals of This Lab**
 
 * Build a realistic SOC environment using open-source tools
 * Understand infrastructure dependencies behind a SIEM deployment
-* Simulate attacker activity and observe detections
+* Simulate attacker activity and observe detections (Phase 2)
 * Practice log analysis, alert triage, and investigation workflows
 * Document decisions, trade-offs, and limitations clearly
 
@@ -113,4 +130,6 @@ This lab is for **educational purposes only**. Attack simulations are conducted 
 ## **Author**
 
 Built and documented as part of a personal cybersecurity learning journey, with a focus on practical SOC and blue team skills.
+
+> Note: This repository reflects an incremental SOC build. Phase 1 focuses on infrastructure and visibility; detection engineering and attack simulation are documented in Phase 2.
 
