@@ -118,14 +118,6 @@ These assumptions are documented openly rather than hidden.
 * Follow the setup sections to reproduce the lab
 * Use the documentation as a reference during learning reviews
 
-
-
-## **Disclaimer**
-
-This lab is for **educational purposes only**. Attack simulations are conducted in an isolated environment against systems owned and controlled by the author.
-
-
-
 ## **Author**
 
 Built and documented as part of a personal cybersecurity learning journey, with a focus on practical SOC and blue team skills.
