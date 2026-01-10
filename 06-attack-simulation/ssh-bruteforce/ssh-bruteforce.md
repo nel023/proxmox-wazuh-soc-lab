@@ -46,7 +46,7 @@ ssh ronel@10.20.20.100
 
 #### Evidence: Attack Execution
 
-![Failed SSH login attempts from Kali VM](./assets/screenshots/kali-vm/kali-ssh-failed-attempts.png)
+![Failed SSH login attempts from Kali VM](/assets/screenshots/kali-vm/kali-ssh-failed-attempts.png)
 
 The command was executed repeatedly with incorrect credentials, intentionally generating authentication failure events on the Windows endpoint.
 
@@ -69,7 +69,7 @@ This behavior is consistent with limitations in **Windows OpenSSH and Windows Se
 
 #### Evidence: Wazuh Detection
 
-![Wazuh alert table showing failed SSH authentication attempts](./assets/screenshots/wazuh/wazuh-ssh-bruteforce-alerts.png)
+![Wazuh alert table showing failed SSH authentication attempts](/assets/screenshots/wazuh/wazuh-ssh-bruteforce-alerts.png)
 
 In the Wazuh Dashboard:
 - Alerts were generated for repeated SSH authentication failures
