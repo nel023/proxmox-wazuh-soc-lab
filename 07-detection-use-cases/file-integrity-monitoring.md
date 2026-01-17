@@ -46,6 +46,7 @@ echo "Confidential file" > "C:\Users\Public\test-fim\fim_test.txt"
 **Expected Result:**
 File creation/modification events appear in Wazuh Dashboard under Endpoint Security → File Integrity Monitoring. Due to Windows agent behavior, alerts may appear with a short delay.
 
+![Windows FIM](/assets/screenshots/wazuh/fim-windows.png)
 > *Image above is an example of syscheck event in Wazuh File Integrity Monitoring Dashboard. Folder and file names may be different depending on your setup*
 
 ## Ubuntu FIM Configuration
@@ -88,6 +89,7 @@ echo "Sensitive Data" > /home/ubuntu/confidential/fim_test.txt
 **Expected Result:**
 Alerts with syscheck metadata appear in Wazuh Dashboard, showing the full path and event type (added or modified). Linux FIM events are typically detected near real-time.
 
+![Windows FIM](/assets/screenshots/wazuh/fim-ubuntu.png)
 > *Image above is an example of syscheck event in Wazuh File Integrity Monitoring Dashboard. Folder and file names may be different depending on your setup*
 
 ## Validation
